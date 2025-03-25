@@ -9,7 +9,8 @@ import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/api/peliculas")
-public class peliculasController {
+public class peliculasController 
+{
 
     private List<peliculas> peliculas = new ArrayList<>();
 
@@ -46,4 +47,5 @@ public class peliculasController {
             }
         }
         return null;
+}
 }
