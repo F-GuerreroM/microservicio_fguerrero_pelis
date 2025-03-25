@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class MicroservicioFguerreroPelisApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(MicroservicioFguerreroPelisApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(MicroservicioFguerreroPelisApplication.class, args);
+    }
 }
